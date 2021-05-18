@@ -6,23 +6,6 @@ Simple, intutive PGP wrapper library for .NET. Extremely clean, flexible, and ea
 
 **UPDATE: Changed .NET Framework dependency to NuGet [Portable.BouncyCastle](https://www.nuget.org/packages/Portable.BouncyCastle/)**
 
-## Install
-
-To install Cinchoo PGP, run the following command in the Package Manager Console
-
-### .NET Framework [![NuGet](https://img.shields.io/nuget/v/chopgp.svg)](https://www.nuget.org/packages/chopgp/)
-
-    PM> Install-Package ChoPGP
-
-### .NET Core [![NuGet](https://img.shields.io/nuget/v/chopgp.core.svg)](https://www.nuget.org/packages/chopgp.core/)
-
-    PM> Install-Package ChoPGP.Core
-
-Add namespace to the program
-
-``` csharp
-using Cinchoo.PGP;
-```
 # How to use
 
 ## 1. To PGP encrypt a file
@@ -137,7 +120,3 @@ where:
 using (ChoPGPEncryptDecrypt pgp = new ChoPGPEncryptDecrypt())
     pgp.GenerateKey("pub.asc", "pri.asc", "mark@gmail.com", "Test123");
 ```
-
-If this project help you reduce time to develop, you can give me a cup of coffee :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6S2UVXDPR63X8&source=url)

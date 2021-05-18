@@ -1,8 +1,10 @@
-# Cinchoo PGP
+# Cinchoo PGP (using Portable.BouncyCastle)
 
 PGP wrapper library for .NET 
 
 Simple, intutive PGP wrapper library for .NET. Extremely clean, flexible, and easy to use. 
+
+**UPDATE: Changed .NET Framework NuGet To [Portable.BouncyCastle](https://www.nuget.org/packages/Portable.BouncyCastle/)**
 
 ## Install
 
